@@ -1,4 +1,5 @@
 " This completely turns off the error bells in win10 
+" TEST FOR ANDREW !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 set noerrorbells visualbell t_vb=
 if has('autocmd')
 	  autocmd GUIEnter * set visualbell t_vb=
