@@ -7,6 +7,7 @@ if has('autocmd')
 " Don't mess with it
 
 syntax on
+set relativenumber
 set encoding=utf-8
 set backspace=indent,eol,start
 set noerrorbells
@@ -50,7 +51,6 @@ Plug 'morhetz/gruvbox'
 Plug 'vim-utils/vim-man'
 Plug 'leafgarland/typescript-vim'
 Plug 'mbbill/undotree'
-"Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'frazrepo/vim-rainbow'
